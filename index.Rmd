@@ -1,13 +1,21 @@
 ---
-title: "Tucker's Kitchen"
+title: "Stone Kitchen"
 description: "A collection of my favorite recipes"
 output: distill::distill_article
 ---
 
-# Welcome to Tucker's Kitchen 🍳
+# Welcome to Stone Kitchen 🍳
 
 Here you’ll find some of my favorite home-cooked recipes.  
 Click on a recipe below to view the full details.
 
+
+Appetizers
+
+Mains
+
 - [Marry Me Shrimp Pasta](marry_me_shrimp_pasta.html)
 
+Desserts
+
+Breads
