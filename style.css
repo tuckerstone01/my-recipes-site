@@ -10,7 +10,7 @@
 .hero {
   width: 100vw; /* full viewport width */
   height: 80vh; /* adjust height as needed */
-  background-image: url('images/hero_banner.jpg');
+  background-image: url('images/hero_banner.JPG');
   background-size: cover; /* ensures the image covers the entire area */
   background-position: center; /* centers the image */
   background-repeat: no-repeat;
