@@ -1,5 +1,5 @@
 name: "tucker-kitchen"
-title: "Tucker's Kitchen"
+title: "Stone Kitchen"
 output_dir: "docs"   # built site goes here for GitHub Pages
 navbar:
   right:

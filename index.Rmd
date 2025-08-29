@@ -10,12 +10,12 @@ Here you’ll find some of my favorite home-cooked recipes.
 Click on a recipe below to view the full details.
 
 
-Appetizers
+## Appetizers
 
-Mains
+## Mains
 
 - [Marry Me Shrimp Pasta](marry_me_shrimp_pasta.html)
 
-Desserts
+## Desserts
 
-Breads
+## Breads

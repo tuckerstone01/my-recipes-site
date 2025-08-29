@@ -4,7 +4,7 @@ description: "Creamy sun-dried tomato shrimp pasta that’s rich, comforting, an
 output: distill::distill_article
 ---
 
-![](images/marry_me_shrimp.jpg){width=70%}
+![](images/marry_me_shrimp.JPG){width=70%}
 
 **Total Time:** 35 min  
 **Prep & Cooking Time:** 35 min  
