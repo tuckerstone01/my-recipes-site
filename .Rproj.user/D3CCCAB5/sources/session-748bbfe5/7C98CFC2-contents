@@ -1,0 +1,14 @@
+---
+title: "About"
+description: "About Tucker's Kitchen"
+output: distill::distill_article
+---
+
+# About Me
+
+Hi, I’m Tucker 👋.  
+I’m an air quality scientist by day and a home cook by night.  
+I started this site to collect and share my favorite recipes, so I can 
+cook them again and again — and maybe inspire others to try them too!
+
+When I’m not cooking, I enjoy weightlifting, baking, and hand-sewing projects.

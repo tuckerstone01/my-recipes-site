@@ -1,0 +1,13 @@
+name: "tucker-kitchen"
+title: "Tucker's Kitchen"
+output_dir: "docs"   # built site goes here for GitHub Pages
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Recipes"
+      menu:
+        - text: "Marry Me Shrimp Pasta"
+        - href: marry_me_shrimp_pasta.html
+    - text: "About"
+      href: about.html
