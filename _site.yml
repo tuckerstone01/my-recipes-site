@@ -1,13 +1,23 @@
 name: "tucker-kitchen"
-title: "Stone Kitchen"
-output_dir: "docs"   # built site goes here for GitHub Pages
+title: "The Stone Table"   # navbar title
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "Recipes"
       menu:
-        - text: "Marry Me Shrimp Pasta"
-        - href: marry_me_shrimp_pasta.html
+        - text: "Appetizers & Snacks"
+          href: appetizers_snacks.html
+        - text: "Mains"
+          href: mains.html
+        - text: "Sides & Sauces"
+          href: sides_sauces.html
+        - text: "Breads"
+          href: breads.html
+        - text: "Desserts"
+          href: desserts.html
+        - text: "Beverages"
+          href: beverages.html
     - text: "About"
       href: about.html

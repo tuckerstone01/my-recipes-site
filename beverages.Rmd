@@ -1,0 +1,10 @@
+---
+title: "Beverages"
+output: distill::distill_article
+---
+
+# Beverages
+
+## Coffee
+
+## Smoothie

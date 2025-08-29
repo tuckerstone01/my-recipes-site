@@ -1,0 +1,12 @@
+---
+title: "Mains"
+output: distill::distill_article
+---
+
+# Mains
+
+## Marry Me Shrimp Pasta
+[![Marry Me Shrimp Pasta](images/marry_me_shrimp.JPG){width=70%}](marry_me_shrimp_pasta.html)
+
+## Lemon Garlic Chicken
+

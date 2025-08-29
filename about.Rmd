@@ -6,6 +6,6 @@ output: distill::distill_article
 
 # About Me
 
-Hi, I’m Tucker. Follow my in my journey of exploring thhe culinary world one meal at a time.
+Hi, I’m Tucker Stone. Follow my in my journey of exploring thhe culinary world one meal at a time.
 
 

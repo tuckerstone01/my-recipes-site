@@ -1,0 +1,104 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&family=Roboto:wght@400;700&display=swap');
+
+/* Hide default Distill page title */
+.d-title {
+  display: none;
+}
+
+/* Hero section */
+.hero {
+  width: 100vw; /* full viewport width */
+  height: 80vh; /* adjust height as needed */
+  background-image: url('images/hero_banner.jpg');
+  background-size: cover; /* ensures the image covers the entire area */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: calc(-50vw + 50%); /* remove default margins if inside container */
+}
+
+.hero h1 {
+  color: white;
+  font-size: 6em;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+  text-align: center;
+  margin: 0;
+  font-family: 'Dancing Script', cursive !important; /* hero title font */
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in animation for hero text */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sections container */
+.sections {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sections h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Grid layout for section cards */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Individual section cards */
+.section-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;   /* long horizontal rectangle */
+  height: 150px;  /* slightly taller for bigger text */
+  background-color: #f9f5f0; /* off-white / bone color */
+  color: #333;
+  text-decoration: none;
+  font-size: 2em;  /* larger text */
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-family: 'Satisfy', cursive; /* flowy, readable font */
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  background-color: #f0ece4; /* slightly darker on hover */
+}
+
+/* Smooth scroll for anchors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+
+  .section-card {
+    width: 600px;
+    height: 120px;
+    font-size: 1.5em; /* larger for mobile too */
+  }
+}
